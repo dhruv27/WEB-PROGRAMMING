@@ -5,8 +5,7 @@
   </head>
 <body>
   <h1 id="title">Lecture 53</h1>
-  <h1>Dhruv Kshatriya</h1>
-  <h1>Roll No:A062</h1>
+  
   <p>
     Say hello to 
     <input id="name" type="text">
@@ -18,7 +17,8 @@
   
   <div id="content"></div>
 
-  <script >
+  <script>
+    // DOM manipulation
 // console.log(document.getElementById("title"));
 // console.log(document instanceof HTMLDocument);
 
@@ -32,8 +32,7 @@ function sayHello () {
   //   .textContent = message;
 
   document
-    .get// DOM manipulation
-ElementById("content")
+    .getElementById("content")
     .innerHTML = message;
 
   if (name === "student") {
@@ -41,7 +40,7 @@ ElementById("content")
       document
         .querySelector("#title")
         .textContent;
-    title == " & Lovin' it!";
+    title += " & Lovin' it!";
     document
         .querySelector("h1")
         .textContent = title;
@@ -50,4 +49,3 @@ ElementById("content")
   </script>
 </body>
 </html>
-
