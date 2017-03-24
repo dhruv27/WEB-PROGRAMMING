@@ -14,10 +14,10 @@
 //   document
 //     .getElementById("content")
 //     .innerHTML = message;
-
+function myFunction() {
   if (name === "DHRUV") {
- function myFunction() {
+ 
     var x = document.getElementById("myTable").rows[0].cells.length;
-    document.getElementById("demo").innerHTML = "Found " + x + " cells in the first tr element.";
+   
   }
 }
